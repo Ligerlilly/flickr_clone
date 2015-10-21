@@ -1,0 +1,8 @@
+<% @images.each do |image| %>
+  <h3><%= image.title %></h3>
+
+  <%= image_tag image.pic %>
+  <p>
+    <%= image.caption %>
+  </p>
+<% end %>
