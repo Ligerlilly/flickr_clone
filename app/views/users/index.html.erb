@@ -1,0 +1,13 @@
+<ul>
+  <% @users.each do |user| %>
+    <li>
+      <%= link_to user_path(user) do %>
+        <%= user.username %>
+        <% if user.images.any? %>
+          <%= image_tag user.images.sample(1).first.pic %>
+        <% end %>
+      <% end %>
+    </li>
+  <% end %>
+
+</ul>

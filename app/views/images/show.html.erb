@@ -15,7 +15,10 @@
 <% if @image.tags.any? %>
   <h4>Tagged Users:</h4>
   <% @image.tags.each do |tag| %>
-    <h5><%= tag.user.username %></h5>
+    <h5>
+      <%= tag.user.username %>
+      <%= link_to 'Delete', tag_path(tag), :data => {:method => 'delete'} %>
+    </h5>
   <% end %>
 <% end %>
 
