@@ -1,0 +1,11 @@
+<h3><%= @image.title %></h3>
+
+<%= image_tag @image.pic %>
+<p>
+  <%= @image.caption %>
+</p>
+
+<%= link_to 'Edit', edit_image_path(@image) %> |
+<%= link_to 'Delete', image_path(@image),
+                      :data => {:confirm => 'Are you sure?',
+                                :method => 'delete'}%>

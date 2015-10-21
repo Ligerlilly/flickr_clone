@@ -17,10 +17,30 @@ class ImagesController < ApplicationController
     end
   end
 
+  def edit
+  end
+
+  def update
+    if @image.update(image_params)
+      redirect_to image_path(@image)
+    else
+      render :edit
+    end
+  end
+
+  def show
+  end
+
+  def destroy
+    @image.destroy
+    redirect_to images_path
+  end
+
   private
   def find_image
     @image = Image.find(params[:id])
   end
+
   def image_params
     params.require(:image).permit(:title, :caption, :pic)
   end
