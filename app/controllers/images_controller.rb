@@ -29,6 +29,7 @@ class ImagesController < ApplicationController
   end
 
   def show
+    @favorite = Favorite.new
     @tag = Tag.new
     @users = User.all
   end

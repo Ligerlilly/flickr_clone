@@ -21,6 +21,7 @@ group :development do
 end
 
 group :test, :development do
+  gem 'hirb'
   gem 'rspec-rails'
   gem 'launchy'
   gem 'pry'

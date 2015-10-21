@@ -1,7 +1,7 @@
 class AlbumsController < ApplicationController
   before_action :find_user
   before_action :find_album, :except => [:new, :create, :index]
-  
+
   def index
     @albums = Album.all
   end
@@ -12,7 +12,6 @@ class AlbumsController < ApplicationController
 
   def create
     @album = @user.albums.new(album_params)
-    #binding.pry
     if @album.save
       params[:album][:images].each do |image|
         @album.images.create(pic: image)

@@ -6,8 +6,10 @@ Rails.application.routes.draw do
   resources :images
   resources :tags
   resources :albums
+  resources :favorites
   resources :users do
     resources :albums
+    resources :favorites
   end
 
   root 'home#index'
