@@ -5,10 +5,13 @@
   <%= @image.caption %>
 </p>
 
-<%= link_to 'Edit', edit_image_path(@image) %> |
-<%= link_to 'Delete', image_path(@image),
-                      :data => {:confirm => 'Are you sure?',
-                                :method => 'delete'}%>
+<% if current_user && current_user.id == @image.user_id %>
+  <%= link_to 'Edit', edit_image_path(@image) %> |
+  <%= link_to 'Delete', image_path(@image),
+                        :data => {:confirm => 'Are you sure?',
+                                  :method => 'delete'}%>
+<% end %>
+
 <% if @image.tags.any? %>
   <h4>Tagged Users:</h4>
   <% @image.tags.each do |tag| %>

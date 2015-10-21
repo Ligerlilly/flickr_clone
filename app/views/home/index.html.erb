@@ -1,2 +1,6 @@
 <h1>Home</h1>
-<%= link_to 'New Pic', new_image_path %>
+<% if current_user %>
+  <%= link_to 'New Pic', new_image_path %>
+<% else %>
+  <%= link_to 'New Pic', new_user_session_path %>
+<% end %>
