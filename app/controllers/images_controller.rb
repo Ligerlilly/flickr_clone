@@ -29,6 +29,8 @@ class ImagesController < ApplicationController
   end
 
   def show
+    @tag = Tag.new
+    @users = User.all
   end
 
   def destroy

@@ -1,8 +1,9 @@
 <% @images.each do |image| %>
-  <h3><%= link_to image.title, image_path(image) %></h3>
-
+  <h3><%= link_to image_path(image) do %></h3>
+  <h3><%= image.title %></h3>
   <%= image_tag image.pic.url(:thumb) %>
   <p>
     <%= image.caption %>
   </p>
+  <% end %>
 <% end %>

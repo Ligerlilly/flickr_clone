@@ -9,3 +9,19 @@
 <%= link_to 'Delete', image_path(@image),
                       :data => {:confirm => 'Are you sure?',
                                 :method => 'delete'}%>
+<% if @image.tags.any? %>
+  <h4>Tagged Users:</h4>
+  <% @image.tags.each do |tag| %>
+    <h5><%= tag.user.username %></h5>
+  <% end %>
+<% end %>
+
+<h4>Tag:</h4>
+<%= form_for @tag do |f| %>
+  <div class='form-group'>
+    <%= f.hidden_field :image_id, value: @image.id %>
+    <%= f.label :user %>
+    <%= f.select :user_id, @users.collect { |u| [ u.username, u.id ] }, include_blank: true %>
+    <%= f.submit class: 'btn btn-success' %>
+  </div>
+<% end %>
