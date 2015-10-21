@@ -5,7 +5,10 @@ Rails.application.routes.draw do
 
   resources :images
   resources :tags
-  resources :users
+  resources :albums
+  resources :users do
+    resources :albums
+  end
 
   root 'home#index'
   # The priority is based upon order of creation: first created -> highest priority.

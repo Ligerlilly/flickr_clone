@@ -12,12 +12,19 @@
                                   :method => 'delete'}%>
 <% end %>
 
+<% if @image.album %>
+  <h3>Included in: <%= link_to @image.album.name, user_album_path(@image.album.user, @image.album) %></h3>
+
+<% end %>
+
 <% if @image.tags.any? %>
   <h4>Tagged Users:</h4>
   <% @image.tags.each do |tag| %>
     <h5>
       <%= tag.user.username %>
-      <%= link_to 'Delete', tag_path(tag), :data => {:method => 'delete'} %>
+      <% if tag.user == current_user %>
+        <%= link_to 'Delete', tag_path(tag), :data => {:method => 'delete'} %>
+      <% end %>
     </h5>
   <% end %>
 <% end %>

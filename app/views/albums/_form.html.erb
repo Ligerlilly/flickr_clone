@@ -1,0 +1,14 @@
+<%= render 'layouts/errors', object: @album %>
+
+<%= form_for [@user, @album], html: { multipart: true } do |form| %>
+  <div class='form-group'>
+    <%= form.label :name %>
+    <%= form.text_field :name, class: 'form-control' %>
+  </div>
+  <div class='form-group'>
+    <%= form.label :images %>
+    <%= form.file_field :images, class: 'form-control', multiple: true %>
+  </div>
+  <br>
+  <%= form.submit class: 'btn btn-success' %>
+<% end %>

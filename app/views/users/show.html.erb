@@ -1,4 +1,6 @@
 <h1> <%= @user.username %> </h1>
+<hr>
+<%= link_to 'Create Album', new_user_album_path(@user) %>
 
 <% if @user.images.any? %>
   <h2><%= @user.username %>'s images:</h2>
@@ -27,3 +29,8 @@
     <% end %>
   </ul>
 <% end %>
+
+
+<% @user.albums.each do |album| %>
+  <%= link_to (image_tag album.images.sample(1).first.pic), user_album_path(@user, album) %>
+<% end  %>
