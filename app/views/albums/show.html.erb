@@ -2,3 +2,6 @@
 <% @album.images.each do |img| %>
   <%= link_to (image_tag img.pic), image_path(img) %>
 <% end %>
+<br>
+<%= link_to 'Edit', edit_user_album_path(@user, @album) %> |
+<%= link_to 'Delete', user_album_path(@user, @album), data: { confirm: 'Are you sure?', method: 'delete' }%>

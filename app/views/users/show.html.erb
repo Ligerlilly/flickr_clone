@@ -37,7 +37,11 @@
   <h2>Albums:</h2>
   <% @user.albums.each do |album| %>
     <h4> <%= album.name  %> </h4>
-    <%= link_to (image_tag album.images.sample(1).first.pic), user_album_path(@user, album) %>
+    <% if album.images.any? %>
+      <%= link_to (image_tag album.images.sample(1).first.pic), user_album_path(@user, album) %>
+    <% else %>
+      <%= link_to 'Add Image',edit_user_album_path(@user, album) %>
+    <% end %>
   <% end  %>
 <% end %>
 

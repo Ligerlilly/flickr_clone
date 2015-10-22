@@ -1,14 +1,14 @@
 {
   "RSpec": {
     "coverage": {
-      "/Users/vdice/work/epicodus-flickr_clone/spec/controllers/albums_controller_spec.rb": [
+      "/Users/Guest/Desktop/epicodus-flickr_clone/spec/controllers/albums_controller_spec.rb": [
         1,
         null,
         1,
         null,
         null
       ],
-      "/Users/vdice/work/epicodus-flickr_clone/spec/rails_helper.rb": [
+      "/Users/Guest/Desktop/epicodus-flickr_clone/spec/rails_helper.rb": [
         null,
         1,
         1,
@@ -72,14 +72,14 @@
         null,
         null
       ],
-      "/Users/vdice/work/epicodus-flickr_clone/config/environment.rb": [
+      "/Users/Guest/Desktop/epicodus-flickr_clone/config/environment.rb": [
         null,
         1,
         null,
         null,
         1
       ],
-      "/Users/vdice/work/epicodus-flickr_clone/config/application.rb": [
+      "/Users/Guest/Desktop/epicodus-flickr_clone/config/application.rb": [
         1,
         null,
         1,
@@ -116,12 +116,12 @@
         null,
         null
       ],
-      "/Users/vdice/work/epicodus-flickr_clone/config/boot.rb": [
+      "/Users/Guest/Desktop/epicodus-flickr_clone/config/boot.rb": [
         1,
         null,
         1
       ],
-      "/Users/vdice/work/epicodus-flickr_clone/config/environments/test.rb": [
+      "/Users/Guest/Desktop/epicodus-flickr_clone/config/environments/test.rb": [
         1,
         null,
         null,
@@ -167,7 +167,7 @@
         1,
         null
       ],
-      "/Users/vdice/work/epicodus-flickr_clone/config/initializers/assets.rb": [
+      "/Users/Guest/Desktop/epicodus-flickr_clone/config/initializers/assets.rb": [
         null,
         null,
         null,
@@ -180,7 +180,7 @@
         null,
         null
       ],
-      "/Users/vdice/work/epicodus-flickr_clone/config/initializers/backtrace_silencers.rb": [
+      "/Users/Guest/Desktop/epicodus-flickr_clone/config/initializers/backtrace_silencers.rb": [
         null,
         null,
         null,
@@ -189,12 +189,12 @@
         null,
         null
       ],
-      "/Users/vdice/work/epicodus-flickr_clone/config/initializers/cookies_serializer.rb": [
+      "/Users/Guest/Desktop/epicodus-flickr_clone/config/initializers/cookies_serializer.rb": [
         null,
         null,
         1
       ],
-      "/Users/vdice/work/epicodus-flickr_clone/config/initializers/devise.rb": [
+      "/Users/Guest/Desktop/epicodus-flickr_clone/config/initializers/devise.rb": [
         null,
         null,
         1,
@@ -461,13 +461,13 @@
         null,
         null
       ],
-      "/Users/vdice/work/epicodus-flickr_clone/config/initializers/filter_parameter_logging.rb": [
+      "/Users/Guest/Desktop/epicodus-flickr_clone/config/initializers/filter_parameter_logging.rb": [
         null,
         null,
         null,
         1
       ],
-      "/Users/vdice/work/epicodus-flickr_clone/config/initializers/inflections.rb": [
+      "/Users/Guest/Desktop/epicodus-flickr_clone/config/initializers/inflections.rb": [
         null,
         null,
         null,
@@ -485,18 +485,18 @@
         null,
         null
       ],
-      "/Users/vdice/work/epicodus-flickr_clone/config/initializers/mime_types.rb": [
+      "/Users/Guest/Desktop/epicodus-flickr_clone/config/initializers/mime_types.rb": [
         null,
         null,
         null,
         null
       ],
-      "/Users/vdice/work/epicodus-flickr_clone/config/initializers/session_store.rb": [
+      "/Users/Guest/Desktop/epicodus-flickr_clone/config/initializers/session_store.rb": [
         null,
         null,
         1
       ],
-      "/Users/vdice/work/epicodus-flickr_clone/config/initializers/wrap_parameters.rb": [
+      "/Users/Guest/Desktop/epicodus-flickr_clone/config/initializers/wrap_parameters.rb": [
         null,
         null,
         null,
@@ -512,7 +512,7 @@
         null,
         null
       ],
-      "/Users/vdice/work/epicodus-flickr_clone/spec/factories.rb": [
+      "/Users/Guest/Desktop/epicodus-flickr_clone/spec/factories.rb": [
         1,
         1,
         1,
@@ -525,11 +525,15 @@
         1,
         null,
         null,
+        1,
+        null,
+        null,
+        1,
         1,
         null,
         null
       ],
-      "/Users/vdice/work/epicodus-flickr_clone/config/routes.rb": [
+      "/Users/Guest/Desktop/epicodus-flickr_clone/config/routes.rb": [
         1,
         1,
         null,
@@ -543,6 +547,7 @@
         1,
         1,
         null,
+        1,
         null,
         1,
         null,
@@ -601,7 +606,7 @@
         null,
         null
       ],
-      "/Users/vdice/work/epicodus-flickr_clone/app/models/user.rb": [
+      "/Users/Guest/Desktop/epicodus-flickr_clone/app/models/user.rb": [
         1,
         null,
         null,
@@ -613,38 +618,42 @@
         1,
         null
       ],
-      "/Users/vdice/work/epicodus-flickr_clone/app/helpers/albums_helper.rb": [
+      "/Users/Guest/Desktop/epicodus-flickr_clone/app/helpers/albums_helper.rb": [
         1,
         null
       ],
-      "/Users/vdice/work/epicodus-flickr_clone/app/helpers/application_helper.rb": [
+      "/Users/Guest/Desktop/epicodus-flickr_clone/app/helpers/application_helper.rb": [
         1,
         null
       ],
-      "/Users/vdice/work/epicodus-flickr_clone/app/helpers/favorites_helper.rb": [
+      "/Users/Guest/Desktop/epicodus-flickr_clone/app/helpers/comments_helper.rb": [
         1,
         null
       ],
-      "/Users/vdice/work/epicodus-flickr_clone/app/helpers/home_helper.rb": [
+      "/Users/Guest/Desktop/epicodus-flickr_clone/app/helpers/favorites_helper.rb": [
         1,
         null
       ],
-      "/Users/vdice/work/epicodus-flickr_clone/app/helpers/images_helper.rb": [
+      "/Users/Guest/Desktop/epicodus-flickr_clone/app/helpers/home_helper.rb": [
         1,
         null
       ],
-      "/Users/vdice/work/epicodus-flickr_clone/app/helpers/tags_helper.rb": [
+      "/Users/Guest/Desktop/epicodus-flickr_clone/app/helpers/images_helper.rb": [
         1,
         null
       ],
-      "/Users/vdice/work/epicodus-flickr_clone/app/helpers/users_helper.rb": [
+      "/Users/Guest/Desktop/epicodus-flickr_clone/app/helpers/tags_helper.rb": [
         1,
         null
       ],
-      "/Users/vdice/work/epicodus-flickr_clone/app/controllers/albums_controller.rb": [
+      "/Users/Guest/Desktop/epicodus-flickr_clone/app/helpers/users_helper.rb": [
+        1,
+        null
+      ],
+      "/Users/Guest/Desktop/epicodus-flickr_clone/app/controllers/albums_controller.rb": [
         1,
         1,
-        null,
+        1,
         null,
         1,
         2,
@@ -658,25 +667,51 @@
         null,
         1,
         null,
+        null,
+        null,
+        1,
+        null,
+        null,
+        1,
+        null,
+        null,
+        1,
+        2,
+        1,
+        1,
+        null,
         1,
         null,
         null,
         null,
         1,
+        1,
+        1,
+        null,
+        null,
+        1,
+        1,
+        13,
+        null,
+        null,
+        1,
+        9,
+        null,
+        null,
         1,
         4,
         null,
         null,
-        null,
-        null,
-        null,
-        null,
         1,
         2,
+        1,
+        1,
+        null,
+        null,
         null,
         null
       ],
-      "/Users/vdice/work/epicodus-flickr_clone/app/controllers/application_controller.rb": [
+      "/Users/Guest/Desktop/epicodus-flickr_clone/app/controllers/application_controller.rb": [
         1,
         null,
         null,
@@ -688,14 +723,44 @@
         null,
         null
       ],
-      "/Users/vdice/work/epicodus-flickr_clone/spec/controllers/favorites_controller_spec.rb": [
+      "/Users/Guest/Desktop/epicodus-flickr_clone/spec/controllers/comments_controller_spec.rb": [
         1,
         null,
         1,
         null,
         null
       ],
-      "/Users/vdice/work/epicodus-flickr_clone/app/controllers/favorites_controller.rb": [
+      "/Users/Guest/Desktop/epicodus-flickr_clone/app/controllers/comments_controller.rb": [
+        1,
+        1,
+        null,
+        1,
+        2,
+        2,
+        1,
+        null,
+        1,
+        null,
+        null,
+        null,
+        null,
+        1,
+        1,
+        2,
+        null,
+        1,
+        2,
+        null,
+        null
+      ],
+      "/Users/Guest/Desktop/epicodus-flickr_clone/spec/controllers/favorites_controller_spec.rb": [
+        1,
+        null,
+        1,
+        null,
+        null
+      ],
+      "/Users/Guest/Desktop/epicodus-flickr_clone/app/controllers/favorites_controller.rb": [
         1,
         1,
         null,
@@ -712,28 +777,28 @@
         null,
         null
       ],
-      "/Users/vdice/work/epicodus-flickr_clone/spec/controllers/home_controller_spec.rb": [
+      "/Users/Guest/Desktop/epicodus-flickr_clone/spec/controllers/home_controller_spec.rb": [
         1,
         null,
         1,
         null,
         null
       ],
-      "/Users/vdice/work/epicodus-flickr_clone/app/controllers/home_controller.rb": [
+      "/Users/Guest/Desktop/epicodus-flickr_clone/app/controllers/home_controller.rb": [
         1,
         1,
         null,
         null,
         null
       ],
-      "/Users/vdice/work/epicodus-flickr_clone/spec/controllers/images_controller_spec.rb": [
+      "/Users/Guest/Desktop/epicodus-flickr_clone/spec/controllers/images_controller_spec.rb": [
         1,
         null,
         1,
         null,
         null
       ],
-      "/Users/vdice/work/epicodus-flickr_clone/app/controllers/images_controller.rb": [
+      "/Users/Guest/Desktop/epicodus-flickr_clone/app/controllers/images_controller.rb": [
         1,
         1,
         1,
@@ -765,9 +830,10 @@
         null,
         null,
         1,
-        11,
-        11,
-        11,
+        15,
+        15,
+        15,
+        15,
         null,
         null,
         1,
@@ -777,7 +843,7 @@
         null,
         1,
         1,
-        16,
+        20,
         null,
         null,
         1,
@@ -785,14 +851,14 @@
         null,
         null
       ],
-      "/Users/vdice/work/epicodus-flickr_clone/spec/controllers/tags_controller_spec.rb": [
+      "/Users/Guest/Desktop/epicodus-flickr_clone/spec/controllers/tags_controller_spec.rb": [
         1,
         null,
         1,
         null,
         null
       ],
-      "/Users/vdice/work/epicodus-flickr_clone/app/controllers/tags_controller.rb": [
+      "/Users/Guest/Desktop/epicodus-flickr_clone/app/controllers/tags_controller.rb": [
         1,
         1,
         null,
@@ -817,14 +883,14 @@
         null,
         null
       ],
-      "/Users/vdice/work/epicodus-flickr_clone/spec/controllers/users_controller_spec.rb": [
+      "/Users/Guest/Desktop/epicodus-flickr_clone/spec/controllers/users_controller_spec.rb": [
         1,
         null,
         1,
         null,
         null
       ],
-      "/Users/vdice/work/epicodus-flickr_clone/app/controllers/users_controller.rb": [
+      "/Users/Guest/Desktop/epicodus-flickr_clone/app/controllers/users_controller.rb": [
         1,
         1,
         1,
@@ -832,20 +898,20 @@
         null,
         null,
         1,
-        4,
-        4,
-        4,
+        5,
+        5,
+        5,
         1,
         null,
         null,
         null,
         1,
         1,
-        4,
+        5,
         null,
         null
       ],
-      "/Users/vdice/work/epicodus-flickr_clone/spec/features/add_album_pages_spec.rb": [
+      "/Users/Guest/Desktop/epicodus-flickr_clone/spec/features/add_album_pages_spec.rb": [
         1,
         null,
         1,
@@ -871,7 +937,31 @@
         null,
         null
       ],
-      "/Users/vdice/work/epicodus-flickr_clone/spec/features/add_favorite_pages_spec.rb": [
+      "/Users/Guest/Desktop/epicodus-flickr_clone/spec/features/add_comment_pages_spec.rb": [
+        1,
+        null,
+        1,
+        1,
+        2,
+        2,
+        2,
+        null,
+        null,
+        1,
+        1,
+        1,
+        1,
+        1,
+        null,
+        null,
+        1,
+        1,
+        1,
+        1,
+        null,
+        null
+      ],
+      "/Users/Guest/Desktop/epicodus-flickr_clone/spec/features/add_favorite_pages_spec.rb": [
         1,
         null,
         1,
@@ -889,7 +979,7 @@
         null,
         null
       ],
-      "/Users/vdice/work/epicodus-flickr_clone/spec/features/add_image_pages_spec.rb": [
+      "/Users/Guest/Desktop/epicodus-flickr_clone/spec/features/add_image_pages_spec.rb": [
         1,
         null,
         1,
@@ -916,7 +1006,7 @@
         null,
         null
       ],
-      "/Users/vdice/work/epicodus-flickr_clone/spec/features/add_tag_pages_spec.rb": [
+      "/Users/Guest/Desktop/epicodus-flickr_clone/spec/features/add_tag_pages_spec.rb": [
         1,
         null,
         1,
@@ -935,7 +1025,26 @@
         null,
         null
       ],
-      "/Users/vdice/work/epicodus-flickr_clone/spec/features/delete_image_pages_spec.rb": [
+      "/Users/Guest/Desktop/epicodus-flickr_clone/spec/features/delete_album_pages_spec.rb": [
+        1,
+        null,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        null,
+        null,
+        1,
+        1,
+        1,
+        1,
+        1,
+        null,
+        null
+      ],
+      "/Users/Guest/Desktop/epicodus-flickr_clone/spec/features/delete_image_pages_spec.rb": [
         1,
         null,
         1,
@@ -953,7 +1062,7 @@
         null,
         null
       ],
-      "/Users/vdice/work/epicodus-flickr_clone/spec/features/delete_tag_pages_spec.rb": [
+      "/Users/Guest/Desktop/epicodus-flickr_clone/spec/features/delete_tag_pages_spec.rb": [
         1,
         null,
         1,
@@ -980,7 +1089,7 @@
         null,
         null
       ],
-      "/Users/vdice/work/epicodus-flickr_clone/spec/features/sign_up_user_pages_spec.rb": [
+      "/Users/Guest/Desktop/epicodus-flickr_clone/spec/features/sign_up_user_pages_spec.rb": [
         1,
         null,
         1,
@@ -995,7 +1104,35 @@
         null,
         null
       ],
-      "/Users/vdice/work/epicodus-flickr_clone/spec/features/update_image_spec.rb": [
+      "/Users/Guest/Desktop/epicodus-flickr_clone/spec/features/update_album_pages_spec.rb": [
+        1,
+        null,
+        1,
+        1,
+        2,
+        2,
+        2,
+        2,
+        null,
+        null,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        null,
+        null,
+        1,
+        1,
+        1,
+        1,
+        1,
+        1,
+        null,
+        null
+      ],
+      "/Users/Guest/Desktop/epicodus-flickr_clone/spec/features/update_image_spec.rb": [
         1,
         null,
         1,
@@ -1023,7 +1160,7 @@
         null,
         null
       ],
-      "/Users/vdice/work/epicodus-flickr_clone/spec/features/visit_user_pages_spec.rb": [
+      "/Users/Guest/Desktop/epicodus-flickr_clone/spec/features/visit_user_pages_spec.rb": [
         1,
         null,
         1,
@@ -1041,7 +1178,7 @@
         null,
         null
       ],
-      "/Users/vdice/work/epicodus-flickr_clone/spec/helpers/albums_helper_spec.rb": [
+      "/Users/Guest/Desktop/epicodus-flickr_clone/spec/helpers/albums_helper_spec.rb": [
         1,
         null,
         null,
@@ -1058,7 +1195,7 @@
         null,
         null
       ],
-      "/Users/vdice/work/epicodus-flickr_clone/spec/helpers/favorites_helper_spec.rb": [
+      "/Users/Guest/Desktop/epicodus-flickr_clone/spec/helpers/comments_helper_spec.rb": [
         1,
         null,
         null,
@@ -1075,7 +1212,7 @@
         null,
         null
       ],
-      "/Users/vdice/work/epicodus-flickr_clone/spec/helpers/home_helper_spec.rb": [
+      "/Users/Guest/Desktop/epicodus-flickr_clone/spec/helpers/favorites_helper_spec.rb": [
         1,
         null,
         null,
@@ -1092,7 +1229,7 @@
         null,
         null
       ],
-      "/Users/vdice/work/epicodus-flickr_clone/spec/helpers/images_helper_spec.rb": [
+      "/Users/Guest/Desktop/epicodus-flickr_clone/spec/helpers/home_helper_spec.rb": [
         1,
         null,
         null,
@@ -1109,7 +1246,7 @@
         null,
         null
       ],
-      "/Users/vdice/work/epicodus-flickr_clone/spec/helpers/tags_helper_spec.rb": [
+      "/Users/Guest/Desktop/epicodus-flickr_clone/spec/helpers/images_helper_spec.rb": [
         1,
         null,
         null,
@@ -1126,7 +1263,7 @@
         null,
         null
       ],
-      "/Users/vdice/work/epicodus-flickr_clone/spec/helpers/users_helper_spec.rb": [
+      "/Users/Guest/Desktop/epicodus-flickr_clone/spec/helpers/tags_helper_spec.rb": [
         1,
         null,
         null,
@@ -1143,7 +1280,24 @@
         null,
         null
       ],
-      "/Users/vdice/work/epicodus-flickr_clone/spec/models/album_spec.rb": [
+      "/Users/Guest/Desktop/epicodus-flickr_clone/spec/helpers/users_helper_spec.rb": [
+        1,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        1,
+        null,
+        null
+      ],
+      "/Users/Guest/Desktop/epicodus-flickr_clone/spec/models/album_spec.rb": [
         1,
         null,
         1,
@@ -1152,14 +1306,14 @@
         2,
         null
       ],
-      "/Users/vdice/work/epicodus-flickr_clone/app/models/album.rb": [
+      "/Users/Guest/Desktop/epicodus-flickr_clone/app/models/album.rb": [
         1,
         1,
         1,
         1,
         null
       ],
-      "/Users/vdice/work/epicodus-flickr_clone/spec/models/favorite_spec.rb": [
+      "/Users/Guest/Desktop/epicodus-flickr_clone/spec/models/comment_spec.rb": [
         1,
         null,
         1,
@@ -1167,13 +1321,13 @@
         2,
         null
       ],
-      "/Users/vdice/work/epicodus-flickr_clone/app/models/favorite.rb": [
+      "/Users/Guest/Desktop/epicodus-flickr_clone/app/models/comment.rb": [
         1,
         1,
         1,
         null
       ],
-      "/Users/vdice/work/epicodus-flickr_clone/spec/models/image_spec.rb": [
+      "/Users/Guest/Desktop/epicodus-flickr_clone/spec/models/favorite_spec.rb": [
         1,
         null,
         1,
@@ -1181,7 +1335,21 @@
         2,
         null
       ],
-      "/Users/vdice/work/epicodus-flickr_clone/app/models/image.rb": [
+      "/Users/Guest/Desktop/epicodus-flickr_clone/app/models/favorite.rb": [
+        1,
+        1,
+        1,
+        null
+      ],
+      "/Users/Guest/Desktop/epicodus-flickr_clone/spec/models/image_spec.rb": [
+        1,
+        null,
+        1,
+        2,
+        2,
+        null
+      ],
+      "/Users/Guest/Desktop/epicodus-flickr_clone/app/models/image.rb": [
         1,
         1,
         1,
@@ -1191,9 +1359,10 @@
         1,
         1,
         1,
+        1,
         null
       ],
-      "/Users/vdice/work/epicodus-flickr_clone/spec/models/tag_spec.rb": [
+      "/Users/Guest/Desktop/epicodus-flickr_clone/spec/models/tag_spec.rb": [
         1,
         null,
         1,
@@ -1201,13 +1370,13 @@
         2,
         null
       ],
-      "/Users/vdice/work/epicodus-flickr_clone/app/models/tag.rb": [
+      "/Users/Guest/Desktop/epicodus-flickr_clone/app/models/tag.rb": [
         1,
         1,
         1,
         null
       ],
-      "/Users/vdice/work/epicodus-flickr_clone/spec/models/user_spec.rb": [
+      "/Users/Guest/Desktop/epicodus-flickr_clone/spec/models/user_spec.rb": [
         1,
         null,
         1,
@@ -1217,6 +1386,6 @@
         null
       ]
     },
-    "timestamp": 1445486201
+    "timestamp": 1445537153
   }
 }

@@ -6,11 +6,11 @@ describe 'delete an image process' do
     @image = FactoryGirl.create(:image, user_id: user.id)
     login_as(user, :scope => :user)
   end
-  
+
   it 'can delete an image' do
     visit image_path(@image)
-    expect(page).to have_content 'Bogus Image'
+    expect(page).to have_content @image.title
     click_link 'Delete'
-    expect(page).to_not have_content 'Bogus Image'
+    expect(page).to_not have_content @image.title
   end
 end

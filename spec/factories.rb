@@ -12,4 +12,8 @@ FactoryGirl.define do
 
   factory :tag do
   end
+
+  factory :album do
+    name 'Tito'
+  end
 end
