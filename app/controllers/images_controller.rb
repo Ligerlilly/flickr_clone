@@ -34,6 +34,7 @@ class ImagesController < ApplicationController
     @favorite = Favorite.new
     @tag = Tag.new
     @users = User.all
+    
   end
 
   def destroy

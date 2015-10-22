@@ -1,11 +1,12 @@
+<header>
 <% @images.each do |image| %>
+  <div>
+    <h3 class='title'><span><%= link_to image.title, image.pic.url, "data-lightbox" => "gallery", "data-title" => "<a href=/images/#{image.id}>#{image.title}</a>", class: 'text' %></span></h3>
 
-    <h3><%= link_to image_path(image) do %></h3>
-    <h3><%= image.title %></h3>
-    <%= image_tag image.pic.url(:thumb) %>
+    <h3><%= link_to image_tag(image.pic.url(:medium)), image.pic.url, "data-lightbox" => "gallery", "data-title" => "<a href=/images/#{image.id}>#{image.title}</a>" %></h3>
     <p>
       <%= image.caption %>
     </p>
-  
-  <% end %>
+  </div>
 <% end %>
+</header>

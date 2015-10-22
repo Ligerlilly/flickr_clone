@@ -11,6 +11,7 @@ gem 'devise'
 gem 'bootstrap-sass'
 gem "font-awesome-rails"
 gem 'paperclip'
+gem 'lightbox2-rails'
 
 group :development do
   gem 'letter_opener'

@@ -10,12 +10,69 @@
  * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
  * file per style scope.
  *
- *= require_tree .
  *= require_self
+ *= require fancybox
+ *= require lightbox
+ *= require_tree .
  */
 @import 'bootstrap-sprockets';
 @import 'bootstrap';
 @import "font-awesome";
+@import "lightbox";
 body {
   margin-top: 60px;
+}
+header {
+  padding: .5vw;
+  font-size: 0;
+  display: -ms-flexbox;
+  -ms-flex-wrap: wrap;
+  -ms-flex-direction: column;
+  -webkit-flex-flow: row wrap;
+  flex-flow: row wrap;
+  display: -webkit-box;
+  display: flex;
+}
+header div {
+  -webkit-box-flex: auto;
+  -ms-flex: auto;
+  flex: auto;
+  width: 200px;
+  margin: .5vw;
+}
+header div img {
+  width: 100%;
+  height: auto;
+}
+@media screen and (max-width: 400px) {
+  header div { margin: 0; }
+  header { padding: 0; }
+}
+
+h3.title {
+  background: rgba(0,0,0,0.5);
+  color: white;
+  cursor: pointer;
+  display: table;
+  height: 150px;
+  left: 30;
+  position: absolute;
+  top: 10;
+  width: 150px;
+  opacity: 0;
+}
+
+h3.title span {
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+}
+
+h3.title:hover {
+  opacity:1;
+}
+
+.text {
+  color: white;
+  text-decoration: none;
 }

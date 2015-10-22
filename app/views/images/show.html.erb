@@ -1,20 +1,4 @@
-<h3>
-  <%= @image.title %>
-  <small>By <%= link_to @image.user.username, user_path(@image.user) %></small>
-</h3>
-
-<%= image_tag @image.pic.url(:large) %>
-<p>
-  <%= @image.caption %>
-</p>
-
-<% if current_user && current_user.id == @image.user_id %>
-  <%= link_to 'Edit', edit_image_path(@image) %> |
-  <%= link_to 'Delete', image_path(@image),
-                        :data => {:confirm => 'Are you sure?',
-                                  :method => 'delete'}%>
-<% end %>
-
+<%= render 'image' %>
 <% if @image.album %>
   <h3>Included in: <%= link_to @image.album.name, user_album_path(@image.album.user, @image.album) %></h3>
 

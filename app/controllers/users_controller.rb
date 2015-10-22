@@ -1,6 +1,6 @@
 class UsersController < ApplicationController
   before_action :find_user, except: [:new, :create, :index]
-  before_action :get_unique_images
+
 
   def index
     @users = User.all
@@ -17,6 +17,7 @@ class UsersController < ApplicationController
   private
   def find_user
     @user = User.find(params[:id])
+    get_unique_images
   end
 
   def get_unique_images
