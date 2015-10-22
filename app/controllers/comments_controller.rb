@@ -4,7 +4,11 @@ class CommentsController < ApplicationController
   def create
      @comment = @commentable.comments.new(comment_params)
      if @comment.save
-       redirect_to  "/#{params[:comment][:commentable_type]}/#{@commentable.id}"
+       if params[:comment][:commentable_type] == 'albums'
+         redirect_to  "/users/#{params[:comment][:user_id]}/#{params[:comment][:commentable_type]}/#{@commentable.id}"
+       else
+         redirect_to  "/#{params[:comment][:commentable_type]}/#{@commentable.id}"
+       end
      else
        redirect_to  "/#{params[:comment][:commentable_type]}/#{@commentable.id}",
        alert: 'You must supply comment content'

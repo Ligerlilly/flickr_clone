@@ -63,7 +63,7 @@
 <h4>Comment</h4>
 <%= form_for @comment do |f| %>
   <%= f.label :content %>
-  <%= f.hidden_field :user_id, value: @image.user_id %>
+  <%= f.hidden_field :user_id, value: current_user.id %>
   <%= f.hidden_field :commentable_id, value: @image.id %>
   <%= f.hidden_field :commentable_type, value: "images" %>
   <%= f.text_field :content %>

@@ -7,4 +7,5 @@ class User < ActiveRecord::Base
   has_many :albums
   has_many :favorites
   validates :username, presence: true
+  has_many :comments, dependent: :destroy
 end

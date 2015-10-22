@@ -5,3 +5,17 @@
 <br>
 <%= link_to 'Edit', edit_user_album_path(@user, @album) %> |
 <%= link_to 'Delete', user_album_path(@user, @album), data: { confirm: 'Are you sure?', method: 'delete' }%>
+
+<h4>Comment</h4>
+<%= form_for @comment do |f| %>
+  <%= f.label :content %>
+  <%= f.hidden_field :user_id, value: current_user.id %>
+  <%= f.hidden_field :commentable_id, value: @album.id %>
+  <%= f.hidden_field :commentable_type, value: "albums" %>
+  <%= f.text_field :content %>
+  <%= f.submit class: 'btn btn-success' %>
+<% end %>
+
+<% @album.comments.each do |comment| %>
+  <%= comment.content %> by <%= comment.user.username %>
+<% end %>
