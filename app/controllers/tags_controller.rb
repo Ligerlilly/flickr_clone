@@ -3,11 +3,8 @@ class TagsController < ApplicationController
 
   def create
     @tag = Tag.new(tag_params)
-    if @tag.save
-      redirect_to image_path(@tag.image), notice: 'success'
-    else
-      redirect_to images_path
-    end
+    @tag.save
+    redirect_to image_path(@tag.image), notice: 'success'
   end
 
   def destroy

@@ -1,10 +1,6 @@
 class AlbumsController < ApplicationController
   before_action :find_user
-  before_action :find_album, :except => [:new, :create, :index]
-
-  def index
-    @albums = Album.all
-  end
+  # before_action :find_album, :except => [:new, :create, :index]
 
   def new
     @album = Album.new
@@ -27,9 +23,9 @@ class AlbumsController < ApplicationController
     @user = User.find(params[:user_id])
   end
 
-  def find_album
-    @album = Album.find(params[:id])
-  end
+  # def find_album
+  #   @album = Album.find(params[:id])
+  # end
 
   def album_params
     params.require(:album).permit(:name)
