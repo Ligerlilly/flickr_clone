@@ -11,7 +11,7 @@ describe 'add an image process' do
     click_link 'New Pic'
     fill_in 'Title', with: 'Hi'
     fill_in 'Caption', with: 'there'
-    page.attach_file("Pic", 'public/system/images/pics/000/000/001/medium/14302299_N05.jpg')
+    page.attach_file("Pic", 'spec/fixtures/images/test.jpg')
     click_button 'Create Image'
     expect(page).to have_content 'Hi'
   end

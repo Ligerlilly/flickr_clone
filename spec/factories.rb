@@ -7,8 +7,7 @@ FactoryGirl.define do
 
   factory :image do
     title 'Bogus Image'
-    pic Rack::Test::UploadedFile.new("#{Rails.root}/public/system/images/pics/000/000/001/medium/14302299_N05.jpg", "image/jpg")
-    # Other attributes
+    pic Rack::Test::UploadedFile.new("#{Rails.root}/spec/fixtures/images/test.jpg", "image/jpg")
   end
 
   factory :tag do

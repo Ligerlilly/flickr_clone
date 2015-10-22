@@ -21,15 +21,17 @@
 <% end %>
 
 <% if @image.tags.any? %>
-  <h4>Tagged Users:</h4>
-  <% @image.tags.each do |tag| %>
-    <h5>
-      <%= tag.user.username %>
-      <% if tag.user == current_user %>
-        <%= link_to 'Delete', tag_path(tag), :data => {:method => 'delete'} %>
-      <% end %>
-    </h5>
-  <% end %>
+  <div id="tagged-users">
+    <h4>Tagged Users:</h4>
+    <% @image.tags.each do |tag| %>
+      <h5>
+        <%= tag.user.username %>
+        <% if tag.user == current_user %>
+          <%= link_to 'Delete', tag_path(tag), :data => {:method => 'delete'}, :class => 'delete-tag' %>
+        <% end %>
+      </h5>
+    <% end %>
+  </div>
 <% end %>
 
 <h4>Tag:</h4>
@@ -43,15 +45,17 @@
 <% end %>
 
 <% if @image.favorites.any? %>
-  <% @image.favorites.each do |favorite| %>
-    <%= link_to user_path(favorite.user) do %>
-      <%= fa_icon 'heart-o 2x' %>
-      <%= favorite.user.username %>
+  <div id='favorites-listing'>
+    <% @image.favorites.each do |favorite| %>
+      <%= link_to user_path(favorite.user) do %>
+        <%= fa_icon 'heart-o 2x' %>
+        <%= favorite.user.username %>
+      <% end %>
     <% end %>
-  <% end %>
+  </div>
 <% end %>
 
 <h4>Favorite</h4>
 <button class='btn btn-success'>
- <%= link_to (fa_icon 'heart-o 2x'), {action: :create, controller: :favorites, favorite: {user_id: current_user.id, image_id: @image.id}}, method: :post  %>
+ <%= link_to (fa_icon 'heart-o 2x'), {action: :create, controller: :favorites, favorite: {user_id: current_user.id, image_id: @image.id}}, method: :post, id: 'make-favorite' %>
 </button>
