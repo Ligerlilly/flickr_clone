@@ -3,10 +3,10 @@
 <%= link_to 'Create Album', new_user_album_path(@user) %>
 
 <!-- Uploaded Images -->
-<% if @user.images.any? %>
+<% if @images.any? %>
   <h2><%= @user.username %>'s images:</h2>
   <ul>
-    <% @user.images.each do |image| %>
+    <% @images.each do |image| %>
       <li>
         <%= link_to image_path(image) do %>
           <%= image_tag image.pic.url(:medium) %>
@@ -38,7 +38,7 @@
   <% @user.albums.each do |album| %>
     <h4> <%= album.name  %> </h4>
     <% if album.images.any? %>
-      <%= link_to (image_tag album.images.sample(1).first.pic), user_album_path(@user, album) %>
+      <%= link_to (image_tag album.images.sample(1).first.pic.url(:large)), user_album_path(@user, album) %>
     <% else %>
       <%= link_to 'Add Image',edit_user_album_path(@user, album) %>
     <% end %>
@@ -50,7 +50,7 @@
   <hr>
   <h2>Favorites:</h2>
   <% @user.favorites.each do |favorite| %>
-    <%= link_to (image_tag favorite.image.pic), image_path(favorite.image) %>
+    <%= link_to (image_tag favorite.image.pic.url(:medium)), image_path(favorite.image) %>
     <h4> By <%= favorite.image.user.username  %> </h4>
   <% end  %>
 <% end %>

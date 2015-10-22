@@ -1,7 +1,8 @@
 class ImagesController < ApplicationController
   before_action :find_image, except: [:new, :index, :create]
   def index
-    @images = Image.all
+    uniq_file_names = Image.all.collect { |i| i.pic_file_name }.uniq
+    @images = uniq_file_names.collect { |fn| Image.where({pic_file_name: fn}).first }
   end
 
   def new

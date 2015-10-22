@@ -1,6 +1,6 @@
 <h2><%= @album.name %></h2>
 <% @album.images.each do |img| %>
-  <%= link_to (image_tag img.pic), image_path(img) %>
+  <%= link_to (image_tag img.pic.url(:large)), image_path(img) %>
 <% end %>
 <br>
 <%= link_to 'Edit', edit_user_album_path(@user, @album) %> |

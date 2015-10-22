@@ -3,7 +3,7 @@
   <small>By <%= link_to @image.user.username, user_path(@image.user) %></small>
 </h3>
 
-<%= image_tag @image.pic %>
+<%= image_tag @image.pic.url(:large) %>
 <p>
   <%= @image.caption %>
 </p>
